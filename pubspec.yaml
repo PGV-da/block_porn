@@ -1,0 +1,20 @@
+name: block_porn
+description: A Dart package to block and filter inappropriate or unwanted URLs. Designed to integrate URL filtering capabilities into applications.
+version: 1.0.0
+repository: https://github.com/PGV-da/block_porn
+issue_tracker: https://github.com/PGV-da/block_porn/issues
+license: https://opensource.org/licenses/MIT
+
+environment:
+  sdk: ^3.5.1
+
+# Add regular dependencies here.
+dependencies:
+  # path: ^1.8.0
+
+dev_dependencies:
+  lints: ^4.0.0
+  test: ^1.24.0
+
+assets:
+  - assets/blocked.txt
